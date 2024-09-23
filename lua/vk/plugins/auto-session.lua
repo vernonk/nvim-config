@@ -6,6 +6,7 @@ return {
     auto_session.setup({
       auto_restore_enabled = false,
       auto_session_suppress_dirs = { "~/", "~/Downloads", "~/Documents", "~/Desktop/" },
+      auto_session_allowed_dirs = { "~/.config/nvim", "~/Projects" }
     })
 
     local keymap = vim.keymap
